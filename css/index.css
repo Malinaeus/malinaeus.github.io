@@ -1,5 +1,5 @@
 img {
-    max-width: 20%;
+    height: 20%;
     float: right;
 }
 @media screen and (max-width: 550px) { 
