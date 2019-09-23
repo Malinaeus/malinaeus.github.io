@@ -2,3 +2,8 @@ img {
     max-width: 40%;
     float: right;
 }
+@media screen and (max-width: 550px) { 
+        .home-grid, nav ul, .banner-box {
+        display: block;
+        }
+    } 
