@@ -2,6 +2,11 @@ img {
     max-width: 20%;
     float: right;
 }
+header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 110px auto;        
+}
 @media screen and (max-width: 550px) { 
         .home-grid, nav ul, .banner-box {
         display: block;
