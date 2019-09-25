@@ -1,7 +1,7 @@
-.maverik {
+#maverik {
     max-width: 30%;
     float: right;
-    margin: 0 7em;
+    margin: 45%;
 }
 header {
     display: grid;
