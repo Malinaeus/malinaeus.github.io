@@ -1,5 +1,6 @@
 .maverik {
     max-width: 30%;
+    float: right;
 }
 header {
     display: grid;
