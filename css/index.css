@@ -16,3 +16,7 @@ header {
 h1 {
     background-color: aquamarine
 }
+
+body {
+    font-size: 18px; /*this is now 1em */
+}
