@@ -9,7 +9,7 @@ header {
     align-items: center;        
 }
 @media screen and (max-width: 550px) { 
-        .home-grid, nav ul, .banner-box {
+        #maverik, nav ul, #mainContent {
         display: block;
         }
     } 
