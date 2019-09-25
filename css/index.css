@@ -1,8 +1,7 @@
-img {
+.maverik {
     max-width: 30%;
 }
 header {
-    align-items: center;
     display: grid;
     grid-template-columns: auto auto;        
 }
