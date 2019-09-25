@@ -4,7 +4,8 @@
 }
 header {
     display: grid;
-    grid-template-columns: auto auto;        
+    grid-template-columns: auto auto;
+    text-align: center;        
 }
 @media screen and (max-width: 550px) { 
         .home-grid, nav ul, .banner-box {
