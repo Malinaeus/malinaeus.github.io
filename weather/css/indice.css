@@ -11,12 +11,14 @@
             grid-template-columns: 110px auto;        
         }
         h2 {
+            color: aqua;
             border-top: 5px double;
             border-bottom: 5px double;
             padding:.5em;
             margin:.5em;
         }
         h3 {
+            color: aqua;
             margin-bottom:.5em;
             margin-top:0;
         }
@@ -44,4 +46,7 @@
           
           nav a {
             color: #002642;
+        }
+        p {
+            color: white;
         }
