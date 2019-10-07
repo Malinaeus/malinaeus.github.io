@@ -10,6 +10,13 @@
             display: grid;
             grid-template-columns: 110px auto;        
         }
+        h1 {
+            color: aqua;
+            border-top: 5px double;
+            border-bottom: 5px double;
+            padding:.5em;
+            margin:.5em;
+        }
         h2 {
             color: aqua;
             border-top: 5px double;
