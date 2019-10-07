@@ -1,0 +1,33 @@
+@media screen and (max-width: 550px) { 
+        #maverik, nav ul, #mainContent {
+        display: block;
+        }
+
+        @import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps|Fredoka+One');
+        header h1, h2, h3, h4, h5, h6 {
+          color: #a30005;
+          background-color: white;
+          font-family: "Macondo Swash Caps", Impact, "Times New Roman";
+          margin-bottom: -.1em;
+        }
+        header {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 110px auto;        
+        }
+        h2 {
+            border-top: 5px double;
+            border-bottom: 5px double;
+            padding:.5em;
+            margin:.5em;
+        }
+        h3 {
+            margin-bottom:.5em;
+            margin-top:0;
+        }
+        nav ul {
+            list-style: none; 
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+            margin: 0;
+        }
