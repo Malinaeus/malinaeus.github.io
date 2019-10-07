@@ -1,8 +1,8 @@
         @import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps|Fredoka+One');
         header h1, h2, h3, h4, h5, h6 {
-          color: rgba(255, 0, 0, 0.541);
+          color: White;
           background-color: #462494;
-          font-family: "Macondo Swash Caps", Impact, "Times New Roman";
+          font-family: "Manslava", Impact, "Times New Roman";
           margin-bottom: -.1em;
         }
         header {
