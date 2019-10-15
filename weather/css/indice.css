@@ -1,7 +1,18 @@
-        @import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps|Fredoka+One');
+        @import url('https://fonts.googleapis.com/css?family=Manslava|Fredoka+One');
+      root: {
+       --primary-color: #2E5339;
+       --secondary-color: #191D32;
+       --paragraph-color: #DADDD8;
+       --header-color: #E1CE7A;
+      }
+
+      html {
+        background-color: var(background-color);
+      }
+       
         header h1, h2, h3, h4, h5, h6 {
-          color: White;
-          background-color: #462494;
+          color: var(--header-color);
+          background-color: var(--primary-color);
           font-family: "Manslava", Arial, "Times New Roman";
           margin-bottom: -.1em;
         }
@@ -33,14 +44,14 @@
         }
 
         header h1 {
-            color: aqua;
+            color: var(--header-color);
             border-top: 5px single;
             border-bottom: 5px single;
             padding:.5em;
             margin:.5em;
         }
         header h2 {
-            color: aqua;
+            color: var(header-color);
             border-top: 5px single;
             border-bottom: 5px single;
             padding:.5em;
@@ -58,7 +69,7 @@
             margin: 0;
         }
         body {
-            background-color:#180050;
+            background-color:var(--primary-color);
             font-family: "Manslava", Helvetica, Sans-serif;
             font-size:18px;
             margin: 2em;
@@ -78,7 +89,7 @@
             color: #56f051;
             }
         p {
-            color: white;
+            color: var(--paragraph-color);
             }
         li {
             color: white;
