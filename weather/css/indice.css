@@ -1,5 +1,5 @@
         @import url('https://fonts.googleapis.com/css?family=Manslava|Fredoka+One');
-      root: {
+      :root {
        --primary-color: #2E5339;
        --secondary-color: #191D32;
        --paragraph-color: #DADDD8;
@@ -7,7 +7,7 @@
       }
 
       html {
-        background-color: var(background-color);
+        background-color: var(--primary-color);
       }
        
         header h1, h2, h3, h4, h5, h6 {
@@ -51,7 +51,7 @@
             margin:.5em;
         }
         header h2 {
-            color: var(header-color);
+            color: var(--header-color);
             border-top: 5px single;
             border-bottom: 5px single;
             padding:.5em;
