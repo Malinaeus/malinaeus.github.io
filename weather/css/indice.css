@@ -24,8 +24,9 @@
             }
         
         header img {
-              width: 25%;
+              max-width: 40%;
               height: auto;
+              background-color:white;
             }
         .headings {
           display: flex;
@@ -34,9 +35,7 @@
         .sn {
           margin-bottom: 0;
         }
-        .website {
-          margin-top: 0;
-        }
+
         .motto {
           margin-top:-.5em;
           margin-left: 1em;
@@ -49,6 +48,7 @@
             border-bottom: 5px single;
             padding:.5em;
             margin:.5em;
+            font-size: 12pt;
         }
         header h2 {
             color: var(--header-color);
@@ -74,11 +74,7 @@
             font-size:18px;
             margin: 2em;
             }
-          img {
-            max-width: 40%;
-            background-color: white;
-            
-          }
+
           nav {
             color: #56f051;
             font-size:1.1em;
