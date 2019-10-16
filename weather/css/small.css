@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Manslava|Fredoka+One');
+:root {
+ --primary-color: #2E5339;
+ --secondary-color: #191D32;
+ --paragraph-color: #DADDD8;
+ --header-color: #E1CE7A;
+}
+
+html {
+  background-color: var(--primary-color);
+}
+ 
+  header h1, h2, h3, h4, h5, h6 {
+    color: var(--header-color);
+    background-color: var(--primary-color);
+    font-family: "Manslava", Arial, "Times New Roman";
+    margin-bottom: -.1em;
+  }
+  header {
+      align-items: center;
+      display: flex;  
+      align-content: center;
+      justify-content: center;
+      }
+  
+  header img {
+        max-width: 100%;
+        height: auto;
+        background-color:white;
+      }
+  .headings {
+    display: flex;
+    flex-direction: column;
+    }
+  .sn {
+    margin-bottom: 0;
+  }
+
+  .motto {
+    margin-top:-.5em;
+    margin-left: 1em;
+    font: italic;
+  }
+
+  header h1 {
+      color: var(--header-color);
+      border-top: 5px single;
+      border-bottom: 5px single;
+      padding:.5em;
+      margin:.5em;
+      font-size: 12pt;
+  }
+  header h2 {
+      color: var(--header-color);
+      border-top: 5px single;
+      border-bottom: 5px single;
+      padding:.5em;
+      margin:.5em;
+  }
+  h1 {
+      color: white;
+      margin-bottom:auto;
+      margin-top:2em;
+  }
+  nav ul {
+      list-style: none; 
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+      margin: 0;
+  }
+  body {
+      background-color:var(--primary-color);
+      font-family: "Manslava", Helvetica, Sans-serif;
+      font-size:18px;
+      margin: 2em;
+      }
+
+    nav {
+      color: #56f051;
+      font-size:1.1em;
+      padding: 1em;
+    }
+    
+    nav a {
+      color: #56f051;
+      }
+  p {
+      color: var(--paragraph-color);
+      }
+  li {
+      color: white;
+      }
+  .forecast {
+          width: 20px;
+          height: 20px;
+          border: 3px solid black;
+      }
