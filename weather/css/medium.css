@@ -91,7 +91,7 @@ html {
       color: white;
       }
 
-      div.forecast {
+.forecast {
         display: contents;
         border: 2px solid red;
         background-color: #ccc;
