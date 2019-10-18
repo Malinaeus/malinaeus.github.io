@@ -101,3 +101,10 @@ html {
     height: 170px;
     width: 170px;
 }
+
+#ball {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: orangered;
+}
