@@ -7,14 +7,9 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;        
-}
-@media screen and (max-width: 550px) { 
-        #maverik, nav ul, #mainContent {
-        display: block;
-        }
-    } 
-h1 {
-    background-color: aquamarine
+} 
+.nameBanner {
+    background-color: brown;
 }
 
 body {
