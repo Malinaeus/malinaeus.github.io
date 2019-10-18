@@ -9,8 +9,9 @@ header {
     align-items: center;        
 } 
 .nameBanner {
+    color: white;
     background-color: brown;
-}
+    }
 
 body {
     font-size: 18px; /*this is now 1em */
