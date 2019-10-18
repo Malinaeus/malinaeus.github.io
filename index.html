@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="siteName">Portal Home Page</title>
     <link href="/css/index.css" rel="stylesheet" >
+</head>
+<body>
+        <header>
+        <h1 class="nameBanner">&nbsp &nbsp Jackson Rittenhouse</h1>
+        <img src="/images/happy.jpg" id="maverik" alt="A smiling picture of Jackson Rittenhouse">
+    </header>
+        <main id="mainContent">
+        <h2>CIT 230: Assignment Portal</h2>
+    <nav>
+        <ul>
+            <li>Lesson 02 <a href="https://byui.instructure.com/courses/69010/pages/w02-responsive-web-design?module_item_id=7065638">Assignment Link</a></li>
+            <li>Lesson 03 <a href="https://byui.instructure.com/courses/69010/pages/w03-responsive-website-planning?module_item_id=7065670">Assignment Link</a></li>
+            <li>Lesson 04 <a href="https://byui.instructure.com">Link | Link</a></li>
+            <p><a href="\weather\docs\index.html">Weather Home</a></p>
+        </ul>
+    </nav>
+</main>
+    <footer>
+        <p class="copyright">&copy; 2020 | Jackson Rittenhouse | Idaho | BYUI Online Learning</p>
+        <p class="timeVisited"><script> document.write(new Date().toLocaleDateString()); </script></p>
+    </footer>
     
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+</body>
+<!--Two reasons for using DIVs
+1) DIVs are used as generic boxes for style
+2) DIVs are used to hold content ONLY if there isn't another option-->
 </html>

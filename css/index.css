@@ -11,7 +11,7 @@ header {
 .nameBanner {
     color: white;
     background-color: brown;
-    vertical-align: 2em;
+    margin-top:-2.5em;
     }
 
 body {
@@ -30,4 +30,7 @@ footer {
 }
 .copyright {
   margin-bottom:0;
+}
+main {
+    margin-top:-7em;
 }
