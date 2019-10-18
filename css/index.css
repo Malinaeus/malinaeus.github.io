@@ -24,6 +24,9 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+footer a {
+    color:white;
+}
 .timeVisited{
   color: yellow;
   margin-top:0;
