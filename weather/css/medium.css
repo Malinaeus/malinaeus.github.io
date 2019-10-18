@@ -44,16 +44,12 @@ html {
 
   header h1 {
       color: var(--header-color);
-      border-top: 5px single;
-      border-bottom: 5px single;
       padding:.5em;
       margin:.5em;
       font-size: 12pt;
   }
   header h2 {
       color: var(--header-color);
-      border-top: 5px single;
-      border-bottom: 5px single;
       padding:.5em;
       margin:.5em;
   }
