@@ -1,25 +1,41 @@
 #maverik {
-    max-width: 30%;
-    float: right;
-    margin-right: 45%;
+    max-width: 20%;
+    float:right;
 }
 h1 h2 h3 h4 {
     font-family: 'Roboto Mono', monospace;
 }
+h1 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+}
+
+h2 {
+    font-size: 1rem;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0.5rem;
+    max-width:45rem;
+}
 
 header {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;        
+    align-items: center; 
+    max-width: 45rem;       
 } 
 .nameBanner {
     color: white;
     background-color: brown;
-    margin-top:-2.5em;
+    max-width: 45rem;
     }
 
 body {
-    font-size: 18px; /*this is now 1em */
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 2rem;
+    height: 100%;
+    max-width: 35rem;
+     /*this is now 1em */
 }
 footer {
   background-color: brown;
@@ -27,6 +43,7 @@ footer {
   display:flex;
   flex-direction: column;
   align-items: center;
+  max-width: 45rem;
 }
 footer a {
     color:white;
@@ -38,6 +55,11 @@ footer a {
 .copyright {
   margin-bottom:0;
 }
-main {
-    margin-top:-7em;
+@media only screen and (min-width 32.5em) {
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
 }
