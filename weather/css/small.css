@@ -96,148 +96,138 @@ html {
     border-radius: 100%;
     height: 170px;
     width: 170px;
-}
-.circle {
-  display: grid;
-  grid-template-columns: 17fr;
-  grid-template-rows: 17fr;
-  
+    justify-items: center;
+    margin:30px;
 }
 
-.circle {
-  justify-items: center;
-  margin:30px;
-  
-}
-
-#oc1{
+#poc1{
   position:absolute;
   top:30px;
   left: 102px;
 }
-#ic1 {
+#pic1 {
   position:absolute;
   top:61px;
   left: 102px;
 }
-#oc2 {
+#poc2 {
   position:absolute;
   top:55px;
   left: 175px;
 }
-#ic2 {
+#pic2 {
   position:absolute;
   top:72px;
   left: 142px;
 }
-#oc3 {
+#poc3 {
    position:absolute;
   top: 86px;
   left: 195px;
 }
-#ic3 {
+#pic3 {
   position:absolute;
   top: 97px;
   left: 162px;
 }
-#oc4 {
+#poc4 {
   position:absolute;
   top:125px;
   left: 200px;
 }
-#ic4 {
+#pic4 {
   position:absolute;
   top:125px;
   left: 168px;
 }
-#oc5 {
+#poc5 {
   position:absolute;
   top:160px;
   left: 195px;
 }
-#ic5 {
+#pic5 {
   position:absolute;
   top:153px;
   left: 162px;
 }
-#oc6 {
+#poc6 {
   position:absolute;
   top:200px;
   left: 175px;
 }
-#ic6 {
+#pic6 {
   position:absolute;
   top:178px;
   left: 140px;
 }
-#oc7 {
+#poc7 {
   position:absolute;
   top:220px;
   left: 102px;
 }
-#ic7 {
+#pic7 {
   position:absolute;
   top:189px;
   left: 102px;
 }
-#oc8 {
+#poc8 {
   position:absolute;
   top:200px;
   left: 30px;
 }
-#ic8 {
+#pic8 {
   position:absolute;
   top:178px;
   left: 64px;
 }
-#oc9 {
+#poc9 {
   position:absolute;
   top:160px;
   left: 8px;
 }
-#ic9 {
+#pic9 {
   position:absolute;
   top:153px;
   left: 42px;
 }
-#oc10 {
+#poc10 {
   position:absolute;
   top:125px;
   left: 0%;
 }
-#ic10 {
+#pic10 {
   position:absolute;
   top:125px;
   left:36px;
 }
-#oc11 {
+#poc11 {
    position:absolute;
   top: 86px;
   left: 8px;
 }
-#ic11 {
+#pic11 {
   position:absolute;
   top: 97px;
   left: 41px;
 }
-#oc12 {
+#poc12 {
   position:absolute;
   top:55px;
   left: 30px;
 }
-#ic12 {
+#pic12 {
   position:absolute;
   top:72px;
   left: 60px;
 }
 
-#mid {
+#pmid {
   position:absolute;
   top:125px;
   left: 102px;
 }
 
-#dot {
+#pdot {
   position:absolute;
   top:61px;
   left: 102px;
