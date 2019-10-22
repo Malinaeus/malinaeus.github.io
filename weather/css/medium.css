@@ -240,25 +240,274 @@ html {
     background-color: orangered;
   }
   
-  #ball1 {
+  #toc1{
+    position:absolute;
+    top:30px;
+    left: 102px;
+  }
+  #tic1 {
+    position:absolute;
+    top:61px;
+    left: 102px;
+  }
+  #toc2 {
+    position:absolute;
+    top:55px;
+    left: 175px;
+  }
+  #tic2 {
+    position:absolute;
+    top:72px;
+    left: 142px;
+  }
+  #toc3 {
+     position:absolute;
+    top: 86px;
+    left: 195px;
+  }
+  #tic3 {
+    position:absolute;
+    top: 97px;
+    left: 162px;
+  }
+  #toc4 {
+    position:absolute;
+    top:125px;
+    left: 200px;
+  }
+  #tic4 {
+    position:absolute;
+    top:125px;
+    left: 168px;
+  }
+  #toc5 {
+    position:absolute;
+    top:160px;
+    left: 195px;
+  }
+  #tic5 {
+    position:absolute;
+    top:153px;
+    left: 162px;
+  }
+  #toc6 {
+    position:absolute;
+    top:200px;
+    left: 175px;
+  }
+  #tic6 {
+    position:absolute;
+    top:178px;
+    left: 140px;
+  }
+  #toc7 {
+    position:absolute;
+    top:220px;
+    left: 102px;
+  }
+  #tic7 {
+    position:absolute;
+    top:189px;
+    left: 102px;
+  }
+  #toc8 {
+    position:absolute;
+    top:200px;
+    left: 30px;
+  }
+  #tic8 {
+    position:absolute;
+    top:178px;
+    left: 64px;
+  }
+  #toc9 {
+    position:absolute;
+    top:160px;
+    left: 8px;
+  }
+  #tic9 {
+    position:absolute;
+    top:153px;
+    left: 42px;
+  }
+  #toc10 {
+    position:absolute;
+    top:125px;
+    left: 0%;
+  }
+  #tic10 {
+    position:absolute;
+    top:125px;
+    left:36px;
+  }
+  #toc11 {
+     position:absolute;
+    top: 86px;
+    left: 8px;
+  }
+  #tic11 {
+    position:absolute;
+    top: 97px;
+    left: 41px;
+  }
+  #toc12 {
+    position:absolute;
+    top:55px;
+    left: 30px;
+  }
+  #tic12 {
+    position:absolute;
+    top:72px;
+    left: 60px;
+  }
+  
+  #tmid {
+    position:absolute;
+    top:125px;
+    left: 102px;
+  }
+  
+  #tdot {
+    position:absolute;
+    top:61px;
+    left: 102px;
     width: 35px;
     height: 35px;
     border-radius: 100%;
     background-color: orangered;
   }
-  #ball2 {
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    background-color: orangered;
+  
+  #foc1{
+    position:absolute;
+    top:30px;
+    left: 102px;
   }
-  #ball3 {
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    background-color: orangered;
+  #fic1 {
+    position:absolute;
+    top:61px;
+    left: 102px;
   }
-  #ball4 {
+  #foc2 {
+    position:absolute;
+    top:55px;
+    left: 175px;
+  }
+  #fic2 {
+    position:absolute;
+    top:72px;
+    left: 142px;
+  }
+  #foc3 {
+     position:absolute;
+    top: 86px;
+    left: 195px;
+  }
+  #fic3 {
+    position:absolute;
+    top: 97px;
+    left: 162px;
+  }
+  #foc4 {
+    position:absolute;
+    top:125px;
+    left: 200px;
+  }
+  #fic4 {
+    position:absolute;
+    top:125px;
+    left: 168px;
+  }
+  #foc5 {
+    position:absolute;
+    top:160px;
+    left: 195px;
+  }
+  #fic5 {
+    position:absolute;
+    top:153px;
+    left: 162px;
+  }
+  #foc6 {
+    position:absolute;
+    top:200px;
+    left: 175px;
+  }
+  #fic6 {
+    position:absolute;
+    top:178px;
+    left: 140px;
+  }
+  #foc7 {
+    position:absolute;
+    top:220px;
+    left: 102px;
+  }
+  #fic7 {
+    position:absolute;
+    top:189px;
+    left: 102px;
+  }
+  #foc8 {
+    position:absolute;
+    top:200px;
+    left: 30px;
+  }
+  #fic8 {
+    position:absolute;
+    top:178px;
+    left: 64px;
+  }
+  #foc9 {
+    position:absolute;
+    top:160px;
+    left: 8px;
+  }
+  #fic9 {
+    position:absolute;
+    top:153px;
+    left: 42px;
+  }
+  #foc10 {
+    position:absolute;
+    top:125px;
+    left: 0%;
+  }
+  #fic10 {
+    position:absolute;
+    top:125px;
+    left:36px;
+  }
+  #foc11 {
+     position:absolute;
+    top: 86px;
+    left: 8px;
+  }
+  #fic11 {
+    position:absolute;
+    top: 97px;
+    left: 41px;
+  }
+  #foc12 {
+    position:absolute;
+    top:55px;
+    left: 30px;
+  }
+  #fic12 {
+    position:absolute;
+    top:72px;
+    left: 60px;
+  }
+  
+  #fmid {
+    position:absolute;
+    top:125px;
+    left: 102px;
+  }
+  
+  #fdot {
+    position:absolute;
+    top:61px;
+    left: 102px;
     width: 35px;
     height: 35px;
     border-radius: 100%;
