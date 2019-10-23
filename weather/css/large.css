@@ -6,7 +6,6 @@
  --header-color: #E1CE7A;
 }
 
-
 html {
   background-color: var(--primary-color);
 }
@@ -39,6 +38,7 @@ html {
   .headings {
     display: flex;
     flex-direction: column;
+    text-align:center;
     }
   .sn {
     margin-bottom: 0;
