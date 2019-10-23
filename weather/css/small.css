@@ -326,3 +326,8 @@ h3 {
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
+@media only screen and (max-width:32.5rem) {
+  .links {
+    display: none;
+  }
+}

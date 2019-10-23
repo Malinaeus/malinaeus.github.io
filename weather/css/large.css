@@ -301,3 +301,8 @@ html {
     display: grid;
     grid-template-columns: repeat(3,1fr);
   }
+  @media only screen and (max-width:50rem) {
+    .dropdown {
+      display: none;
+    }
+  }
