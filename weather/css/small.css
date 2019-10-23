@@ -336,3 +336,13 @@ h3 {
     display: none;
   }
 }
+
+#w {
+  color:red;
+}
+#t {
+  color:orangered;
+}
+#r {
+  color:yellow;
+}
