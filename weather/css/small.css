@@ -304,14 +304,16 @@ h3 {
   .dropbtn {
     background-color: black;
     color: white;
-    max-width:100%;
+    width:100%;
     padding: 5px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
+    tex-align:left;
 }
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 .dropdown-content {
   display: none;
