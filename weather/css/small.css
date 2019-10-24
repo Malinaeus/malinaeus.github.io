@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Manslava');
+@import url('https://fonts.googleapis.com/css?family=Mansalva');
 
 :root {
     --primary-color: rgb(13, 12, 87);
@@ -18,7 +18,7 @@ h5,
 h6 {
   color: var(--header-color);
   background-color: var(--primary-color);
-  font-family: "Manslava", Arial, "Times New Roman";
+  font-family: "Mansalva", Arial, "Times New Roman";
   margin-bottom: -.1em;
 }
 header h1 {
@@ -84,7 +84,7 @@ nav ul {
 
 body {
   background-color: var(--primary-color);
-  font-family: "Manslava", Helvetica, Sans-serif;
+  font-family: "Mansalva", Helvetica, Sans-serif;
   font-size: 18px;
   margin: 2em;
 }
