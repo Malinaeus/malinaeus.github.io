@@ -109,7 +109,7 @@ html {
       background-color: white;
       position: relative;
       grid-column: 1;
-      grid-row: 1;
+      grid-row: 4;
       border: 3px black solid;
     }
     #precipitation {
@@ -119,7 +119,7 @@ html {
       margin: 0 auto;
       position: relative;
       grid-column: 2;
-      grid-row: 1;
+      grid-row: 4;
       background-color: white;
       border: 3px black solid;
     }
@@ -130,7 +130,7 @@ html {
       margin: 0 auto;
       position: relative;
       grid-column: 3;
-      grid-row: 1;
+      grid-row: 4;
       background-color: white;
       border: 3px black solid;
     }
