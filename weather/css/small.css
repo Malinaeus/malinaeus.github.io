@@ -114,6 +114,11 @@ p {
   grid-column: 1;
   grid-row:2;
 }
+.current {
+  width:100%;
+  grid-column: 1;
+  grid-row; 3;
+}
 
 
 #forecast {
@@ -123,7 +128,7 @@ p {
   background-color: white;
   position: relative;
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 4;
   border: 3px black solid;
 }
 
@@ -133,7 +138,7 @@ p {
   margin: 0 auto;
   position: relative;
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 5;
   background-color: white;
   border: 3px black solid;
 }
@@ -144,7 +149,7 @@ p {
   margin: 0 auto;
   position: relative;
   grid-column: 1;
-  grid-row: 5;
+  grid-row: 6;
   background-color: white;
   border: 3px black solid;
 }
