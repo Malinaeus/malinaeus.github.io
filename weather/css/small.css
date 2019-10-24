@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Manslava');
 
 :root {
-  --primary-color: rgb(13, 12, 87);
-  --secondary-color: #191D32;
-  --paragraph-color: #DADDD8;
-  --header-color: #E1CE7A;
+    --primary-color: rgb(13, 12, 87);
+    --secondary-color: #191D32;
+    --paragraph-color: #DADDD8;
+    --header-color: #E1CE7A;
 }
 
-html {
+html {  
   background-color: var(--primary-color);
 }
 
@@ -118,7 +118,7 @@ p {
   width:100%;
   height: 300px;
   grid-column: 1;
-  grid-row; 3;
+  grid-row: 3;
 }
 
 
