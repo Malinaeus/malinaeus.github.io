@@ -99,10 +99,6 @@ nav a {
   color: #56f051;
 }
 
-p {
-  color: var(--paragraph-color);
-}
-
 #boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -126,30 +122,33 @@ p {
   background-color:white;
   text-justify:center;
 }
-.high {
-  width:150px;
+#high {
+  width:100%;
   height: auto;
   grid-column: 1/2;
   grid-row: 4/5;
   background-color:white;
   color:red;
-  text-align:center;
+  text-align:right;
+  
 }
-.now {
-  width:300px;
+#now {
+  width:100%;
   height: auto;
   grid-column: 1/3;
   grid-row: 3/4;
   background-color:white;
   color:black;
+  text-align:center;
 }
-.low {
-  width:150px;
+#low {
+  width:100%;
   height: auto;
   grid-column: 2/3;
   grid-row: 4/5;
   background-color:white;
   color:blue;
+  text-align:left;
 }
 
 
