@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Mansalva');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari');
 
 :root {
     --primary-color: rgb(13, 12, 87);
@@ -18,7 +18,7 @@ h5,
 h6 {
   color: var(--header-color);
   background-color: var(--primary-color);
-  font-family: "Mansalva", Arial, "Times New Roman";
+  font-family: "Jomolhari", Arial, "Times New Roman";
   margin-bottom: -.1em;
   margin-top:0;
 }
@@ -67,10 +67,12 @@ header img {
 
 .sn {
   margin-bottom: 0;
+  font-size:22px;
 }
 
 .motto {
   margin-top: -.5em;
+  color:lightblue;
   font-style: italic;
 }
 
@@ -85,7 +87,7 @@ nav ul {
 
 body {
   background-color: var(--primary-color);
-  font-family: "Mansalva", Helvetica, Sans-serif;
+  font-family: "Jomolhari", Helvetica, Sans-serif;
   font-size: 18px;
   margin: 2em;
 }
@@ -101,7 +103,7 @@ nav a {
 
 #boxes {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 75px 150px 150px 75px;
   align-content: center;
 }
 .city {
@@ -110,48 +112,69 @@ nav a {
   background-color:white;
   font-size:23px;
   color:black;
+  text-indent:10px;
+  margin:0;
+  border-top: 3px black solid;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
 }
 .coord h2 {
   background-color:white;
   color:black;
 }
 .coord {
-  grid-column: 1/3;
+  grid-column: 1/-1;
   grid-row:2/3;
   text-align:center;
   background-color:white;
-  text-justify:center;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+}
+#high p {
+  font-size:25px;
+  margin:0;
 }
 #high {
-  width:100%;
   height: auto;
-  grid-column: 1/2;
+  grid-column: 1/3;
   grid-row: 4/5;
   background-color:white;
   color:red;
-  text-align:center;
-  
+  text-align:right;
+  border-left: 3px black solid;  
 }
 #now {
-  width:100%;
   height: auto;
-  grid-column: 1/3;
+  grid-column: 1/5;
   grid-row: 3/4;
   background-color:white;
   color:black;
   text-align:center;
 }
+#now p {
+  font-size:45px;
+  margin:0;
+}
+#low p {
+  font-size:25px;
+  margin:0;
+  text-justify:center;
+}
 #low {
-  width:100%;
   height: auto;
-  grid-column: 2/3;
+  grid-column: 3/5;
   grid-row: 4/5;
   background-color:white;
   color:blue;
-  text-align:center;
+  text-indent:15px;
+  text-align:left;
+  font-size: 100%;
+  border-right: 3px black solid;
 }
 
-
+#forecast h3 {
+  margin-top: 5px;
+}
 #forecast {
   width: 300px;
   height: 300px;
@@ -161,6 +184,10 @@ nav a {
   grid-column: 1/-1;
   grid-row: 7/8;
   border: 3px black solid;
+}
+
+#precipitation h3 {
+  margin-top: 5px;
 }
 
 #precipitation {
@@ -174,6 +201,10 @@ nav a {
   border: 3px black solid;
 }
 
+#temperature h3 {
+  margin-top: 5px;
+}
+
 #temperature {
   width: 300px;
   height: 300px;
@@ -183,6 +214,7 @@ nav a {
   grid-row: 5/6;
   background-color: white;
   border: 3px black solid;
+  
 }
 
 .circle {
@@ -200,170 +232,170 @@ nav a {
 
 .oc1 {
   position: absolute;
-  top: 45px;
-  left: 136px;
+  top: 40px;
+  left: 133px;
 }
 
 .ic1 {
   position: absolute;
-  top: 11px;
-  left: 80px;
+  top: 3px;
+  left: 79px;
   z-index: 2;
 }
 
 .oc2 {
   position: absolute;
-  top: 59px;
+  top: 52px;
   left: 190px;
 }
 
 .ic2 {
   position: absolute;
-  top: 21px;
-  left: 114px;
+  top: 10px;
+  left: 110px;
   z-index: 2;
 }
 
 .oc3 {
   position: absolute;
-  top: 95px;
+  top: 87px;
   left: 224px;
 }
 
 .ic3 {
   position: absolute;
-  top: 44px;
-  left: 138px;
+  top: 32px;
+  left: 135px;
   z-index: 2;
 }
 
 .oc4 {
   position: absolute;
-  top: 140px;
+  top: 133px;
   left: 235px;
 }
 
 .ic4 {
   position: absolute;
-  top: 75px;
+  top: 68px;
   left: 144px;
   z-index: 2;
 }
 
 .oc5 {
   position: absolute;
-  top: 185px;
+  top: 179px;
   left: 224px;
 }
 
 .ic5 {
   position: absolute;
-  top: 109px;
-  left: 138px;
+  top: 105px;
+  left: 135px;
   z-index: 2;
 }
 
 .oc6 {
   position: absolute;
-  top: 224px;
-  left: 190px;
+  top: 217px;
+  left: 184px;
 }
 
 .ic6 {
   position: absolute;
-  top: 132px;
-  left: 114px;
+  top: 128px;
+  left: 110px;
   z-index: 2;
 }
 
 .oc7 {
   position: absolute;
-  top: 235px;
-  left: 136px;
+  top: 227px;
+  left: 133px;
 }
 
 .ic7 {
   position: absolute;
-  top: 142px;
-  left: 80px;
+  top: 136px;
+  left: 79px;
   z-index: 2;
 }
 
 .oc8 {
   position: absolute;
-  top: 224px;
-  left: 85px;
+  top: 217px;
+  left: 82px;
 }
 
 .ic8 {
   position: absolute;
-  top: 132px;
+  top: 128px;
   left: 48px;
   z-index: 2;
 }
 
 .oc9 {
   position: absolute;
-  top: 185px;
-  left: 42px;
+  top: 179px;
+  left: 45px;
 }
 
 .ic9 {
   position: absolute;
-  top: 109px;
-  left: 22px;
+  top: 105px;
+  left: 25px;
   z-index: 2;
 }
 
 .oc10 {
   position: absolute;
-  top: 140px;
-  left: 35px;
+  top: 133px;
+  left: 34px;
 }
 
 .ic10 {
   position: absolute;
-  top: 75px;
-  left: 10px;
+  top: 68px;
+  left: 8px;
   z-index: 2;
 }
 
 .oc11 {
   position: absolute;
-  top: 95px;
+  top: 87px;
   left: 42px;
 }
 
 .ic11 {
   position: absolute;
-  top: 44px;
+  top: 32px;
   left: 17px;
   z-index: 2;
 }
 
 .oc12 {
   position: absolute;
-  top: 59px;
+  top: 52px;
   left: 80px;
 }
 
 .ic12 {
   position: absolute;
-  top: 21px;
-  left: 39px;
+  top: 10px;
+  left: 42px;
   z-index: 2;
 }
 
 .mid {
   position: absolute;
-  top: 35px;
+  top: 19px;
   left: 60px;
 }
 
 .dot {
   position: absolute;
   top: 1px;
-  left: 68px;
+  left: 67px;
   width: 35px;
   height: 35px;
   border-radius: 100%;
@@ -441,4 +473,9 @@ nav a {
 
 #r {
   color: yellow;
+}
+
+footer {
+  color:lightblue;
+  text-align:center;
 }
