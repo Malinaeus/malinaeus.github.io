@@ -129,7 +129,7 @@ nav a {
   grid-row: 4/5;
   background-color:white;
   color:red;
-  text-align:right;
+  text-align:center;
   
 }
 #now {
@@ -148,7 +148,7 @@ nav a {
   grid-row: 4/5;
   background-color:white;
   color:blue;
-  text-align:left;
+  text-align:center;
 }
 
 
