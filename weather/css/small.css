@@ -119,7 +119,7 @@ p {
   color:black;
 }
 .coord {
-  grid-column: 1/-1;
+  grid-column: 1/3;
   grid-row:2/3;
   text-align:center;
   background-color:white;
@@ -135,7 +135,7 @@ p {
 .now {
   width:100%;
   height: 300px;
-  grid-column: 1/-1;
+  grid-column: 1/3;
   grid-row: 3/4;
   background-color:white;
   color:black;
